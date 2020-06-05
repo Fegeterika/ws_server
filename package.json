@@ -1,0 +1,22 @@
+{
+  "name": "ws_server",
+  "version": "0.1.0",
+  "description": "implementing websocket server just for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fegeterika/ws_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fegeterika/ws_server/issues"
+  },
+  "homepage": "https://github.com/Fegeterika/ws_server#readme",
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
