@@ -4,7 +4,10 @@
   "description": "implementing websocket server just for fun",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf build/* && tsc",
+    "start": "node build/index.js",
+    "lint": "tslint --project tsconfig.json",
+    "lint-fix": "tslint --fix --project tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,9 @@
   },
   "homepage": "https://github.com/Fegeterika/ws_server#readme",
   "devDependencies": {
+    "tslint": "^6.1.2",
+    "tslint-config-airbnb": "^5.11.2",
+    "typedoc": "^0.17.7",
     "typescript": "^3.9.5"
   }
 }
